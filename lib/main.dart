@@ -39,13 +39,48 @@ class _MyHomePageState extends State<MyHomePage> {
           backgroundColor: Theme.of(context).colorScheme.inversePrimary,
           title: Text(widget.title),
         ),
-        body: Center(
-          child: Container(
-              width: 800,
-              height: 500,
-              child: Image.asset(
-                  'assets/images/tuqa-nabi-uhnZZUaTIOs-unsplash.jpg')),
+        body: Container(
+          height: 300,
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(
+                'A',
+                style: TextStyle(fontSize: 20),
+              ),
+              Text(
+                'B',
+                style: TextStyle(fontSize: 20),
+              ),
+              Text(
+                'C',
+                style: TextStyle(fontSize: 20),
+              ),
+              Text(
+                'D',
+                style: TextStyle(fontSize: 20),
+              ),
+              Text(
+                'E',
+                style: TextStyle(fontSize: 20),
+              ),
+              Text(
+                'F',
+                style: TextStyle(fontSize: 20),
+              ),
+              ElevatedButton(onPressed: () {}, child: Text('click me'))
+            ],
+          ),
         )
+
+        // Center(
+        //   child: Container(
+        //       width: 800,
+        //       height: 500,
+        //       child: Image.asset(
+        //           'assets/images/tuqa-nabi-uhnZZUaTIOs-unsplash.jpg')),
+        // )
 
         //Center(
         //   child: Container(
