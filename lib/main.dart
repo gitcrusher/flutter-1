@@ -41,19 +41,29 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
         body: Center(
           child: Container(
-            width: 200,
-            height: 100,
-            color: Colors.black,
-            child: Center(
-              child: Text(
-                "flutter oops",
-                style: TextStyle(
-                    fontSize: 15,
-                    color: Colors.white,
-                    fontWeight: FontWeight.bold),
-              ),
-            ),
-          ),
-        ));
+              width: 800,
+              height: 500,
+              child: Image.asset(
+                  'assets/images/tuqa-nabi-uhnZZUaTIOs-unsplash.jpg')),
+        )
+
+        //Center(
+        //   child: Container(
+        //     width: 200,
+        //     height: 100,
+        //     color: Colors.black,
+        //     child: Center(
+        //       child: Text(
+        //         "flutter oops",
+        //         style: TextStyle(
+        //             fontSize: 15,
+        //             color: Colors.white,
+        //             fontWeight: FontWeight.bold),
+        //       ),
+        //     ),
+        //   ),
+        // )
+
+        );
   }
 }
