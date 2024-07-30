@@ -40,24 +40,46 @@ class _MyHomePageState extends State<MyHomePage> {
           backgroundColor: Theme.of(context).colorScheme.inversePrimary,
           title: Text(widget.title),
         ),
-        body: Center(
-          child: InkWell(
-            onTap: () {
-              print("tapped on Container");
-            },
-            onLongPress: () {
-              print("longtapped on Container");
-            },
-            onDoubleTap: () {
-              print("doubletapped on Container");
-            },
-            child: Container(
-              width: 200,
-              height: 200,
-              color: Colors.amber,
-            ),
-          ),
-        )
+        body:
+
+
+
+
+
+
+//USe of Inkwell() function.
+
+
+
+        //      Center(
+        //   child: InkWell(
+        //     onTap: () {
+        //       print("tapped on Container");
+        //     },
+        //     onLongPress: () {
+        //       print("longtapped on Container");
+        //     },
+        //     onDoubleTap: () {
+        //       print("doubletapped on Container");
+        //     },
+        //     child: Container(
+        //       width: 200,
+        //       height: 200,
+        //       color: Colors.amber,
+        //       child: Center(
+        //         child: InkWell(
+        //           onTap: () {
+        //             print("tapped on Text!");
+        //           },
+        //           child: Text(
+        //             "click here",
+        //             style: TextStyle(fontSize: 21, fontWeight: FontWeight.w700),
+        //           ),
+        //         ),
+        //       ),
+        //     ),
+        //   ),
+        // )
 
 //Rows And Columns Explaination
 
