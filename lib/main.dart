@@ -55,26 +55,63 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text(widget.title),
       ),
-      body: ListView.separated(
-        itemBuilder: (context, index) {
-          return Center(
-            child: Text(
-              arrAayush[index],
-              style: TextStyle(fontSize: 21, fontWeight: FontWeight.w500),
-            ),
-          );
-        },
-        itemCount: arrAayush.length,
-        separatorBuilder: (context, index) {
-          return Divider(
-            height: 100,
-            thickness: 2,
-          );
-        },
-      ),
+      body:
+
+
+
+// listview with columns and rows and with seprator attribute. ----------------->
+
+
+
+//             ListView.separated(
+//         itemBuilder: (context, index) {
+//           return Center(
+//             child: Row(
+//               children: [
+//                 Padding(
+//                   padding: const EdgeInsets.all(8.0),
+//                   child: Column(
+//                     children: [
+//                       Text(
+//                         arrAayush[index],
+//                         style: TextStyle(
+//                             fontSize: 21, fontWeight: FontWeight.w500),
+//                       ),
+//                       Padding(
+//                         padding: const EdgeInsets.all(8.0),
+//                         child: Text(
+//                           arrAayush[index],
+//                           style: TextStyle(
+//                               fontSize: 11, fontWeight: FontWeight.w500),
+//                         ),
+//                       ),
+//                     ],
+//                   ),
+//                 ),
+//                 Padding(
+//                   padding: const EdgeInsets.all(8.0),
+//                   child: Text(
+//                     arrAayush[index],
+//                     style: TextStyle(fontSize: 21, fontWeight: FontWeight.w500),
+//                   ),
+//                 ),
+//               ],
+//             ),
+//           );
+//         },
+//         itemCount: arrAayush.length,
+//         separatorBuilder: (context, index) {
+//           return Divider(
+//             height: 100,
+//             thickness: 1,
+//           );
+        // },
+    // ),
     );
   }
 }
+
+// listview shorthand with use of variables ----------------->
 
         //       ListView.builder(
         //   itemBuilder: (context, index) {
