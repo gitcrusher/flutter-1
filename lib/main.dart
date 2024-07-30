@@ -40,20 +40,27 @@ class _MyHomePageState extends State<MyHomePage> {
           backgroundColor: Theme.of(context).colorScheme.inversePrimary,
           title: Text(widget.title),
         ),
-        body:
-
-
-
-
-
-
-
-
+        body: Center(
+          child: InkWell(
+            onTap: () {
+              print("tapped on Container");
+            },
+            onLongPress: () {
+              print("longtapped on Container");
+            },
+            onDoubleTap: () {
+              print("doubletapped on Container");
+            },
+            child: Container(
+              width: 200,
+              height: 200,
+              color: Colors.amber,
+            ),
+          ),
+        )
 
 //Rows And Columns Explaination
 
-
-        
         //       Container(
         //   height: 800,
         //   width: 500,
@@ -120,13 +127,7 @@ class _MyHomePageState extends State<MyHomePage> {
         //   ),
         // )
 
-
-
-
-
 //images inserting in docs
-
-
 
         // Center(
         //   child: Container(
@@ -136,15 +137,7 @@ class _MyHomePageState extends State<MyHomePage> {
         //           'assets/images/tuqa-nabi-uhnZZUaTIOs-unsplash.jpg')),
         // )
 
-
-
-
-
-
-
 //child nesting.
-
-
 
         //Center(
         //   child: Container(
