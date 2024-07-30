@@ -40,71 +40,93 @@ class _MyHomePageState extends State<MyHomePage> {
           backgroundColor: Theme.of(context).colorScheme.inversePrimary,
           title: Text(widget.title),
         ),
-        body: Container(
-          height: 800,
-          width: 500,
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.start,
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: [
-                  Text(
-                    'A',
-                    style: TextStyle(fontSize: 20),
-                  ),
-                  Text(
-                    'B',
-                    style: TextStyle(fontSize: 20),
-                  ),
-                  Text(
-                    'C',
-                    style: TextStyle(fontSize: 20),
-                  ),
-                  Text(
-                    'D',
-                    style: TextStyle(fontSize: 20),
-                  ),
-                  Text(
-                    'E',
-                    style: TextStyle(fontSize: 20),
-                  ),
-                  Text(
-                    'F',
-                    style: TextStyle(fontSize: 20),
-                  ),
-                ],
-              ),
-              Text(
-                'A',
-                style: TextStyle(fontSize: 20),
-              ),
-              Text(
-                'B',
-                style: TextStyle(fontSize: 20),
-              ),
-              Text(
-                'C',
-                style: TextStyle(fontSize: 20),
-              ),
-              Text(
-                'D',
-                style: TextStyle(fontSize: 20),
-              ),
-              Text(
-                'E',
-                style: TextStyle(fontSize: 20),
-              ),
-              Text(
-                'F',
-                style: TextStyle(fontSize: 20),
-              ),
-              ElevatedButton(onPressed: () {}, child: Text('click me'))
-            ],
-          ),
-        )
+        body:
+
+
+
+
+
+
+
+
+
+//Rows And Columns Explaination
+
+
+        
+        //       Container(
+        //   height: 800,
+        //   width: 500,
+        //   child: Column(
+        //     mainAxisAlignment: MainAxisAlignment.start,
+        //     crossAxisAlignment: CrossAxisAlignment.start,
+        //     children: [
+        //       Row(
+        //         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        //         crossAxisAlignment: CrossAxisAlignment.center,
+        //         children: [
+        //           Text(
+        //             'A',
+        //             style: TextStyle(fontSize: 20),
+        //           ),
+        //           Text(
+        //             'B',
+        //             style: TextStyle(fontSize: 20),
+        //           ),
+        //           Text(
+        //             'C',
+        //             style: TextStyle(fontSize: 20),
+        //           ),
+        //           Text(
+        //             'D',
+        //             style: TextStyle(fontSize: 20),
+        //           ),
+        //           Text(
+        //             'E',
+        //             style: TextStyle(fontSize: 20),
+        //           ),
+        //           Text(
+        //             'F',
+        //             style: TextStyle(fontSize: 20),
+        //           ),
+        //         ],
+        //       ),
+        //       Text(
+        //         'A',
+        //         style: TextStyle(fontSize: 20),
+        //       ),
+        //       Text(
+        //         'B',
+        //         style: TextStyle(fontSize: 20),
+        //       ),
+        //       Text(
+        //         'C',
+        //         style: TextStyle(fontSize: 20),
+        //       ),
+        //       Text(
+        //         'D',
+        //         style: TextStyle(fontSize: 20),
+        //       ),
+        //       Text(
+        //         'E',
+        //         style: TextStyle(fontSize: 20),
+        //       ),
+        //       Text(
+        //         'F',
+        //         style: TextStyle(fontSize: 20),
+        //       ),
+        //       ElevatedButton(onPressed: () {}, child: Text('click me'))
+        //     ],
+        //   ),
+        // )
+
+
+
+
+
+//images inserting in docs
+
+
 
         // Center(
         //   child: Container(
@@ -113,6 +135,16 @@ class _MyHomePageState extends State<MyHomePage> {
         //       child: Image.asset(
         //           'assets/images/tuqa-nabi-uhnZZUaTIOs-unsplash.jpg')),
         // )
+
+
+
+
+
+
+
+//child nesting.
+
+
 
         //Center(
         //   child: Container(
@@ -126,7 +158,7 @@ class _MyHomePageState extends State<MyHomePage> {
         //             fontSize: 15,
         //             color: Colors.white,
         //             fontWeight: FontWeight.bold),
-        //       ),
+        //       ),/
         //     ),
         //   ),
         // )
