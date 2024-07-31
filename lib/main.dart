@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.orange),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepOrange),
         useMaterial3: true,
       ),
       home: const MyHomePage(title: "Flutter Welcome's Aayush"),
@@ -55,20 +55,40 @@ class _MyHomePageState extends State<MyHomePage> {
           backgroundColor: Theme.of(context).colorScheme.inversePrimary,
           title: Text(widget.title),
         ),
-        body: Container(
-          width: double.infinity, // full width
-          height: double.infinity, // full height
-          color: Colors.blue.shade500,
-          child: Center(
-            child: Container(
-              width: 150,
-              height: 150,
-              decoration: BoxDecoration(
-                  color: Colors.blueGrey,
-                  borderRadius: BorderRadius.circular(11)),
-            ),
-          ),
-        )
+        body: 
+
+
+
+
+
+
+
+
+// decoration of containers 
+
+
+
+                  //Container(
+        //   width: double.infinity, // full width
+        //   height: double.infinity, // full height
+        //   child: Center(
+        //     child: Container(
+        //       width: 150,
+        //       height: 150,
+        //       decoration: BoxDecoration(
+        //           color: Colors.blueGrey,
+        //           borderRadius: BorderRadius.circular(11),
+        //           border: Border.all(
+        //             width: 2,
+        //             color: Colors.black,
+        //           ),
+        //           boxShadow: [
+        //             BoxShadow(
+        //                 blurRadius: 11, color: Colors.grey, spreadRadius: 1)
+        //           ]),
+        //     ),
+        //   ),
+        // )
 
 // listview with columns and rows and with seprator attribute. ----------------->
 
