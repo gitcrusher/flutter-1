@@ -35,33 +35,42 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
-    var arrAayush = [
-      'Raman',
-      'Ramanujan',
-      'Ram',
-      'raj',
-      'rama',
-      'rajunk',
-      'raju',
-      'fucky',
-      'bucky',
-      'booby',
-      'kooby',
-      'fooby',
-      'cooby',
-    ];
+    // var arrAayush = [
+    //   'Raman',
+    //   'Ramanujan',
+    //   'Ram',
+    //   'raj',
+    //   'rama',
+    //   'rajunk',
+    //   'raju',
+    //   'fucky',
+    //   'bucky',
+    //   'booby',
+    //   'kooby',
+    //   'fooby',
+    //   'cooby',
+    // ];
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: Text(widget.title),
-      ),
-      body:
-
-
+        appBar: AppBar(
+          backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+          title: Text(widget.title),
+        ),
+        body: Container(
+          width: double.infinity, // full width
+          height: double.infinity, // full height
+          color: Colors.blue.shade500,
+          child: Center(
+            child: Container(
+              width: 150,
+              height: 150,
+              decoration: BoxDecoration(
+                  color: Colors.blueGrey,
+                  borderRadius: BorderRadius.circular(11)),
+            ),
+          ),
+        )
 
 // listview with columns and rows and with seprator attribute. ----------------->
-
-
 
 //             ListView.separated(
 //         itemBuilder: (context, index) {
@@ -106,8 +115,8 @@ class _MyHomePageState extends State<MyHomePage> {
 //             thickness: 1,
 //           );
         // },
-    // ),
-    );
+        // ),
+        );
   }
 }
 
