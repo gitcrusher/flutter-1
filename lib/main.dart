@@ -55,34 +55,49 @@ class _MyHomePageState extends State<MyHomePage> {
           backgroundColor: Theme.of(context).colorScheme.inversePrimary,
           title: Text(widget.title),
         ),
-        body: Center(
-          child: Container(
-            margin: EdgeInsets.all(51),
-            width: 300,
-            height: 300,
-            child: Padding(
-              padding: EdgeInsets.all(8.0),
-              child: Center(
-                child: Text(
-                  "hello world!",
-                  style: TextStyle(
-                      fontWeight: FontWeight.w500,
-                      fontSize: 51,
-                      decoration: TextDecoration.lineThrough,
-                      color: Colors.amber,
-                      decorationColor: Colors.red),
-                ),
-              ),
-            ),
-            decoration: BoxDecoration(
-                color: Colors.blueAccent,
-                borderRadius: BorderRadius.circular(60),
-                boxShadow: [
-                  BoxShadow(
-                      blurRadius: 11, color: Colors.grey, spreadRadius: 11)
-                ]),
-          ),
-        )
+        body: 
+
+
+
+
+//padding and margin
+
+
+
+        // Center(
+        //   child: Container(
+        //     width: 300,
+        //     height: 300,
+        //     child: Padding(
+        //       padding: EdgeInsets.all(8.0),
+        //       child: Center(
+        //         child: Text(
+        //           "hello world!",
+        //           style: TextStyle(
+        //             fontWeight: FontWeight.w500,
+        //             fontSize: 51,
+        //             decoration: TextDecoration.lineThrough,
+        //             color: Colors.amber,
+        //             decorationColor: Colors.red,
+        //           ),
+        //         ),
+        //       ),
+        //     ),
+        //     decoration: BoxDecoration(
+        //         border: Border.all(width: 1, color: Colors.black12),
+        //         color: Colors.blueAccent,
+        //         borderRadius: BorderRadius.circular(60),
+        //         boxShadow: [
+        //           BoxShadow(
+        //               blurRadius: 11, color: Colors.grey, spreadRadius: 11)
+        //         ]),
+        //   ),
+        // )
+
+
+
+//Use of expanded widget in element
+
 
         //
         //       Row(
