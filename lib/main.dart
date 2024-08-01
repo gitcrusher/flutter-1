@@ -51,71 +51,90 @@ class _MyHomePageState extends State<MyHomePage> {
     //   'cooby',
     // ];
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: Text(widget.title),
-      ),
-      body: 
+        appBar: AppBar(
+          backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+          title: Text(widget.title),
+        ),
+        body: Center(
+          child: Container(
+            width: 300,
+            height: 300,
+            child: Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Center(
+                child: Text(
+                  "hello world!",
+                  style: TextStyle(
+                      fontWeight: FontWeight.w500,
+                      fontSize: 51,
+                      decoration: TextDecoration.lineThrough,
+                      color: Colors.amber,
+                      decorationColor: Colors.red),
+                ),
+              ),
+            ),
+            decoration: BoxDecoration(
+                color: Colors.blueAccent,
+                borderRadius: BorderRadius.circular(60),
+                boxShadow: [
+                  BoxShadow(
+                      blurRadius: 11, color: Colors.grey, spreadRadius: 11)
+                ]),
+          ),
+        )
 
-
-
-
-
-
-// Use of expand in flutter
-
-
-      //       Row(
-      //   mainAxisAlignment: MainAxisAlignment.center,
-      //   children: [
-      //     Container(
-      //       width: 50,
-      //       height: 100,
-      //       color: Colors.blue,
-      //     ),
-      //     Expanded(
-      //       child: Container(
-      //         width: 50,
-      //         height: 100,
-      //         color: Colors.green,
-      //       ),
-      //     ),
-      //     Container(
-      //       width: 50,
-      //       height: 100,
-      //       color: Colors.yellow,
-      //     ),
-      //     Container(
-      //       width: 50,
-      //       height: 100,
-      //       color: Colors.red,
-      //     )
-      //   ],
-      // ),
+        //
+        //       Row(
+        //   mainAxisAlignment: MainAxisAlignment.center,
+        //   children: [
+        //     Expanded(
+        //       child: Container(
+        //         width: 50,
+        //         height: 100,
+        //         color: Colors.blue,
+        //       ),
+        //     ),
+        //     Container(
+        //       width: 50,
+        //       height: 100,
+        //       color: Colors.green,
+        //     ),
+        //     Container(
+        //       width: 50,
+        //       height: 100,
+        //       color: Colors.yellow,
+        //     ),
+        //     Container(
+        //       width: 50,
+        //       height: 100,
+        //       color: Colors.red,
+        //     )
+        //   ],
+        // ),
 
 // decoration of containers
 
-      //Container(
-      //   width: double.infinity, // full width
-      //   height: double.infinity, // full height
-      //   child: Center(
-      //     child: Container(
-      //       width: 150,
-      //       height: 150,
-      //       decoration: BoxDecoration(
-      //           color: Colors.blueGrey,
-      //           borderRadius: BorderRadius.circular(11),
-      //           border: Border.all(
-      //             width: 2,
-      //             color: Colors.black,
-      //           ),
-      //           boxShadow: [
-      //             BoxShadow(
-      //                 blurRadius: 11, color: Colors.grey, spreadRadius: 1)
-      //           ]),
-      //     ),
-      //   ),
-      // )
+        //Container(
+        //   width: double.infinity, // full width
+        //   height: double.infinity, // full height
+        //   child: Center(
+        //     child: Container(
+        //       width: 150,
+        //       height: 150,
+        //       decoration: BoxDecoration(
+        //           color: Colors.blueGrey,
+        //           borderRadius: BorderRadius.circular(11),
+        //           border: Border.all(
+        //             width: 2,
+        //             color: Colors.black,
+        //           ),
+        //           boxShadow: [
+        //             BoxShadow(
+        //                 blurRadius: 11, color: Colors.grey, spreadRadius: 1)
+        //           ]),
+        //     ),
+        //   ),
+        // )
 
 // listview with columns and rows and with seprator attribute. ----------------->
 
@@ -161,9 +180,9 @@ class _MyHomePageState extends State<MyHomePage> {
 //             height: 100,
 //             thickness: 1,
 //           );
-      // },
-      // ),
-    );
+        // },
+        // ),
+        );
   }
 }
 
