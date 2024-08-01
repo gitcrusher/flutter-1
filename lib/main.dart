@@ -57,10 +57,11 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
         body: Center(
           child: Container(
+            margin: EdgeInsets.all(51),
             width: 300,
             height: 300,
             child: Padding(
-              padding: const EdgeInsets.all(8.0),
+              padding: EdgeInsets.all(8.0),
               child: Center(
                 child: Text(
                   "hello world!",
