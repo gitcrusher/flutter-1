@@ -55,33 +55,43 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text(widget.title),
       ),
-      body: Row(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Container(
-            width: 50,
-            height: 100,
-            color: Colors.blue,
-          ),
-          Expanded(
-            child: Container(
-              width: 50,
-              height: 100,
-              color: Colors.green,
-            ),
-          ),
-          Container(
-            width: 50,
-            height: 100,
-            color: Colors.yellow,
-          ),
-          Container(
-            width: 50,
-            height: 100,
-            color: Colors.red,
-          )
-        ],
-      ),
+      body: 
+
+
+
+
+
+
+// Use of expand in flutter
+
+
+      //       Row(
+      //   mainAxisAlignment: MainAxisAlignment.center,
+      //   children: [
+      //     Container(
+      //       width: 50,
+      //       height: 100,
+      //       color: Colors.blue,
+      //     ),
+      //     Expanded(
+      //       child: Container(
+      //         width: 50,
+      //         height: 100,
+      //         color: Colors.green,
+      //       ),
+      //     ),
+      //     Container(
+      //       width: 50,
+      //       height: 100,
+      //       color: Colors.yellow,
+      //     ),
+      //     Container(
+      //       width: 50,
+      //       height: 100,
+      //       color: Colors.red,
+      //     )
+      //   ],
+      // ),
 
 // decoration of containers
 
